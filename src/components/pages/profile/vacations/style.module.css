@@ -1,0 +1,27 @@
+.vacations {
+  width: 270px;
+  margin-top: 20px;
+}
+
+.vacations__row {
+  display: flex;
+}
+
+.vacations__row > :nth-child(2) {
+  margin-left: 10px;
+}
+
+.marked {
+  color: #ff7332;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  .vacations {
+    width: 240px;
+  }
+
+  .vacations__row > :nth-child(2) {
+    margin-left: 5px;
+  }
+}

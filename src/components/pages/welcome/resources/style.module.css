@@ -1,0 +1,34 @@
+.resources {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.resources__flex {
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.resources__item {
+  width: 240px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.resources__item img {
+  height: 60px;
+  width: 60px;
+}
+
+.resources__item a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fe5000;
+}

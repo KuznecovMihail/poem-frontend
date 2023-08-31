@@ -1,0 +1,44 @@
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	padding: 20px;
+}
+
+.form {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	align-items: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.searchImg {
+	position: absolute;
+	width: 30px;
+	top: calc(50% + 5px);
+	/*top: 10%;*/
+	left: 11%;
+}
+
+.input {
+	margin-top: 10px;
+	width: 80%;
+	background: #d9d9d9;
+	border: none;
+	height: 40px;
+	border-radius: 25px;
+	padding-left: 60px;
+	padding-right: 20px;
+	font-size: 14px;
+	outline: none;
+}
+
+.results {
+	width: 80%;
+}
+
+.results h3 {
+	text-align: center;
+}

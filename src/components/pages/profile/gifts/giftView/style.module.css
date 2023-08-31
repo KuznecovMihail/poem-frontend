@@ -1,0 +1,9 @@
+.giftView {
+  padding: 10px;
+  width: 550px;
+}
+
+.giftView__header {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.title {
+  font-size: 30px;
+}
+.start {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#sentence {
+  margin: 15px 0px;
+  font-weight: bold;
+}
+.text img {
+  width: 50%;
+  height: auto;
+  float: right;
+}
+.text span {
+  color: #ff6004;
+  font-weight: bold;
+}
+.text p {
+  margin: 5px 0px;
+}
+.text li {
+  color: #ff6004;
+  font-weight: bold;
+}

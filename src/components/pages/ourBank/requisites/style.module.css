@@ -1,0 +1,49 @@
+.title {
+  font-size: 30px;
+}
+.image {
+  position: relative;
+  z-index: -1;
+}
+.image_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 10px;
+  z-index: 1;
+  color: white;
+  width: 30%;
+  border-left: 3px solid rgb(255, 96, 4);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.image_text hr {
+  color: white;
+}
+.text p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.text table {
+  border: 2px solid rgb(255, 96, 4);
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+.text td {
+  border: 2px solid rgb(255, 96, 4);
+  border-collapse: collapse;
+}
+.text a {
+  color: black;
+}
+.name {
+  width: 30%;
+}
+.content {
+  width: 70%;
+}

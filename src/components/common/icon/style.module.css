@@ -1,0 +1,26 @@
+.icon {
+  height: 25px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  animation: rotate 0.5s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: rotate(45deg);
+  }
+
+  66% {
+    transform: rotate(-60deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

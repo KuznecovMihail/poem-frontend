@@ -1,0 +1,31 @@
+.remote {
+  margin: 0 100px;
+  margin-bottom: 100px;
+}
+
+.remote h2 {
+  margin: 40px 0;
+  text-decoration: underline;
+}
+
+.remote h4 {
+  margin: 0 40px;
+}
+
+.remote img {
+  margin: 10px 100px;
+}
+
+.remote a {
+  color: blue;
+  font-size: 20px;
+  margin: 0 40px;
+}
+
+.remote a:hover {
+  text-decoration: underline;
+}
+
+.remote a:visited {
+  color: purple;
+}

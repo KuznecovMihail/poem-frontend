@@ -1,0 +1,34 @@
+.giftsChoice {
+  padding: 10px;
+  height: 745px;
+  width: 550px;
+}
+
+.giftsChoice__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.giftsChoice__container {
+  height: 300px;
+}
+
+.giftsChoice__title {
+  display: flex;
+  align-items: center;
+}
+
+.giftsChoice__title img {
+  height: 25px;
+  margin-right: 5px;
+}
+
+@media screen and (max-height: 810px) {
+  .giftsChoice {
+    height: 680px;
+  }
+
+  .giftsChoice__container {
+    height: 265px;
+  }
+}

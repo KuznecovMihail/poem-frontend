@@ -1,0 +1,96 @@
+.greetingsForm {
+  padding: 10px;
+  height: 745px;
+  width: 550px;
+}
+
+.greetingsForm__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greetingsForm__body {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.greetingsForm__error {
+  height: 70px;
+}
+
+.greetingsForm__error > * {
+  color: rgb(255, 55, 0);
+}
+
+.greetingsForm__footer {
+  display: flex;
+  justify-content: right;
+}
+
+.greetingsForm__footer > button {
+  height: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 0;
+  transition: 0.5s;
+}
+
+.greetingsForm__footer > *:first-child {
+  margin-right: 10px;
+}
+
+.greetingsForm__footer > *:hover {
+  background: #ffdccc;
+}
+
+.marked {
+  background: #ff7332;
+  color: white;
+}
+
+.greetingsForm__box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.greetingsForm__box > img:first-child {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.greetingsForm__text {
+  background: #d9d9d9;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.greetingsForm__text:focus {
+  outline: none;
+}
+
+@media screen and (max-height: 810px) {
+  .greetingsForm {
+    height: 680px;
+  }
+
+  .greetingsForm__body {
+    margin: 20px;
+  }
+
+  .greetingsForm__error {
+    height: 50px;
+  }
+}

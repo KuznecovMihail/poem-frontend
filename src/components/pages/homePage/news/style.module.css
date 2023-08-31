@@ -1,0 +1,34 @@
+.news {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1118px) {
+  .news {
+    width: 100%;
+  }
+}
+
+.news__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.news__title {
+  font-size: 36px;
+}
+
+.news__header a {
+  color: #fe5000;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 36px;
+  text-decoration: underline;
+}
+
+.news__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,38 @@
+.links_content {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.link {
+	width: clamp(150px, 20%, 300px);
+	margin: 10px;
+}
+
+.activeLink {
+	background-color: #fe8750;
+	color: white;
+	border-radius: 6px;
+}
+
+.button {
+	background: none;
+	height: 2em;
+	width: 100%;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	color: inherit;
+	border: none !important;
+}
+
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.footer_button_content {
+	display: flex;
+	justify-content: flex-end;
+}

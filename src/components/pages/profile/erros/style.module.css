@@ -1,0 +1,12 @@
+.content {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code {
+  font-size: 100px;
+  margin-bottom: 40px;
+}

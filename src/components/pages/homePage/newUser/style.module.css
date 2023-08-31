@@ -1,0 +1,31 @@
+.newUser {
+  max-width: 35%;
+  padding: 20px 30px;
+}
+
+.newUser__only {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+  .newUser {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+}
+
+.newUser__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.newUser__text {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.close {
+  display: none;
+}

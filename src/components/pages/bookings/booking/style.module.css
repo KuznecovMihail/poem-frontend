@@ -1,0 +1,17 @@
+.buttons img {
+  margin: 0px 7px;
+  width: 28px;
+  height: auto;
+}
+.edit img {
+  margin: 0px 7px;
+  width: 24px;
+  height: auto;
+}
+.buttons {
+  text-align: left;
+}
+.alignment {
+  margin-left: 75px;
+  display: flex;
+}

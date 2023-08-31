@@ -1,0 +1,42 @@
+.person__avatar__box {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.person__avatar__box img {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.vacation {
+  margin-top: 20px;
+}
+
+.vacation__content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.vacation__body {
+  margin-left: 20px;
+  max-width: 360px;
+}
+
+.vacation__marked {
+  color: #ff7332;
+}
+
+.vacation__remains {
+  font-weight: 600;
+  color: red;
+}

@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.navbar > *:not(:first-child) {
+  margin-left: 15px;
+}
+
+.navbar__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__item img {
+  height: 25px;
+  margin-right: 5px;
+}

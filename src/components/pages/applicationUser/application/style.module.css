@@ -1,0 +1,19 @@
+.buttons img {
+  margin: 0px 7px;
+  width: 28px;
+  height: auto;
+}
+@media screen and (max-width: 1024px) {
+  .buttons img {
+    margin: 0px 5px;
+    width: 26px;
+    height: auto;
+  }
+}
+.buttons {
+  text-align: left;
+}
+.alignment {
+  margin-left: 75px;
+  display: flex;
+}

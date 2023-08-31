@@ -1,0 +1,31 @@
+.giftsList {
+  padding: 10px;
+  height: 745px;
+  width: 550px;
+}
+
+.giftsList__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrollable {
+  height: 615px;
+  overflow-y: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-height: 810px) {
+  .giftsList {
+    height: 680px;
+  }
+
+  .scrollable {
+    height: 550px;
+  }
+}

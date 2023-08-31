@@ -1,0 +1,26 @@
+.avatar {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-start;
+	margin: 15px 0 10px 50px;
+	width: 100%;
+}
+
+.info {
+	padding: 5px 0;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+.name {
+	color: #FF7332;
+}

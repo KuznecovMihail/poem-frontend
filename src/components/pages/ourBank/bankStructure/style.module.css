@@ -1,0 +1,21 @@
+.title {
+  font-size: 30px;
+}
+.tree_position {
+  font-size: 16px;
+  color: gray;
+}
+.node {
+  padding: 5px 10px;
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.error {
+  height: 60px;
+  font-size: 20px;
+  margin-top: 15px;
+}

@@ -1,0 +1,11 @@
+.edit_date {
+  width: 40%;
+}
+.edit_form {
+  padding: 10px 0px;
+  width: 50%;
+}
+.edit_form label h4 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}

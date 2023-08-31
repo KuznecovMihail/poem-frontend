@@ -1,0 +1,42 @@
+.colleagues {
+  display: flex;
+}
+
+.colleagues > :nth-child(2) {
+  margin-left: 50px;
+}
+
+.colleagues__scrollable {
+  overflow-y: auto;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  max-height: 420px;
+}
+
+.colleagues__row {
+  display: flex;
+  max-width: 500px;
+}
+
+.colleagues__row > :nth-child(2) {
+  margin-left: 10px;
+  overflow-wrap: anywhere;
+}
+
+.marked {
+  color: #ff7332;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .colleagues > :nth-child(2) {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-height: 810px) {
+  .colleagues__scrollable {
+    max-height: 342px;
+  }
+}

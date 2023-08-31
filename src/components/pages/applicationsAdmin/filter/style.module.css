@@ -1,0 +1,28 @@
+.filter {
+  position: relative;
+}
+.filter img {
+  max-width: 23px;
+  height: auto;
+  margin-right: 3px;
+}
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  z-index: 1;
+}
+.dropdown button {
+  justify-content: center;
+}
+.filter_component {
+  width: 200px;
+  margin-bottom: 5px;
+}
+.filter_component span {
+  font-size: 15px;
+}

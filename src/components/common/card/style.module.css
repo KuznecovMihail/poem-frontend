@@ -1,0 +1,19 @@
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+.hoverable:hover {
+  background-color: #ffdccc;
+}
+
+.active {
+  background-color: #fe8750;
+  color: #ffffff;
+}

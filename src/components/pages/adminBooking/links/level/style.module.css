@@ -1,0 +1,38 @@
+.content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-flow: wrap;
+}
+
+.select {
+	width: 17rem;
+	margin-top: 5px;
+}
+
+.select > div > span > div> img {
+	display: none;
+}
+
+.option_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.element {
+	margin: 10px 0;
+}
+
+.form {
+	width: min(400px, 50%);
+}
+
+.first_column {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.delete_button {
+	color: red;
+}

@@ -1,0 +1,49 @@
+.icon__box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.icon__box > img:first-child {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.icon__box > img:first-child:hover {
+  width: 140px;
+  height: 140px;
+}
+
+.iconsList {
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.iconsList__l {
+  max-height: 645px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+@media screen and (max-height: 810px) {
+  .iconsList {
+    height: 265px;
+  }
+
+  .iconsList__l {
+    max-height: 580px;
+  }
+}

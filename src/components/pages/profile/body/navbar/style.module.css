@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.navbar *:not(:first-child) {
+  margin-left: 10px;
+}
+
+.navbar__item {
+  display: flex;
+  align-items: center;
+  width: 240px;
+}
+
+.navbar__item img {
+  height: 25px;
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar__item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.greetings {
+  width: 270px;
+  margin-top: 20px;
+}
+
+.greetings__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greetings__row > :nth-child(2) {
+  margin-left: 10px;
+  width: 100px;
+}
+
+.greetings__icon {
+  height: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .greetings {
+    width: 240px;
+  }
+}

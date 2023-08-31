@@ -1,0 +1,17 @@
+.reservation {
+  margin-top: 10px;
+}
+
+.reservation__header {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation__body {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: 400px;
+}

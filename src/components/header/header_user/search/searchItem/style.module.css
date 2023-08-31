@@ -1,0 +1,54 @@
+.content {
+  margin: 10px 0 15px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.avatar {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.info_item {
+  margin: 5px 0;
+}
+
+.img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  text-align: center;
+  color: #fe5000;
+}
+
+.position {
+  text-align: center;
+  font-size: small;
+  color: gray;
+}
+
+.concurrence {
+  color: #5241ff;
+  font-weight: bolder;
+  /*background-color: black;*/
+}
+
+

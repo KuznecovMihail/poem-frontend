@@ -1,0 +1,29 @@
+.gifts {
+  width: 270px;
+  margin-top: 20px;
+}
+
+.gifts__row {
+  display: flex;
+  align-items: center;
+}
+
+.gifts__row > :nth-child(2) {
+  margin-left: 10px;
+}
+
+.gifts__icon {
+  height: 25px;
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gifts {
+    width: 240px;
+  }
+
+  .gifts__icon {
+    height: 20px;
+    margin-left: 2px;
+  }
+}

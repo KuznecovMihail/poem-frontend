@@ -1,0 +1,42 @@
+.view {
+  width: 800px;
+  height: 500px;
+}
+
+.view__header {
+  display: flex;
+  justify-content: right;
+}
+
+.view__body {
+  display: flex;
+}
+
+.view__body > * {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.info>*:nth-child(2n) {
+  margin: 10px 0;
+}
+
+.info>*:nth-child(3n) {
+  text-align: justify;
+}

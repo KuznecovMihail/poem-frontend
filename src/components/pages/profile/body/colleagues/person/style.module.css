@@ -1,0 +1,51 @@
+.person {
+  text-align: center;
+  width: 220px;
+  margin: 0 10px 10px;
+  overflow-wrap: anywhere;
+}
+
+.person:hover {
+  cursor: pointer;
+}
+
+.person__avatar__box {
+  position: relative;
+  min-width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.person__avatar__box img {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.marked {
+  color: #ff7332;
+}
+
+@media screen and (max-width: 1400px) {
+  .person {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .person {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .person {
+    width: 180px;
+  }
+}

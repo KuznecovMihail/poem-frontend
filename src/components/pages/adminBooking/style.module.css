@@ -1,0 +1,42 @@
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.link_buttons {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+.link_wrapper {
+	min-width: 30%;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.link_content {
+	display: flex;
+	height: 25px;
+	justify-content: flex-start;
+}
+
+.link_content {
+}
+
+.link_icon {
+	height: 25px;
+	margin-right: 5px;
+}
+
+.subPage_content {
+	background-color: white;
+	width: 100%;
+}

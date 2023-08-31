@@ -1,0 +1,32 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead th {
+  border-bottom: 1px solid #606060;
+}
+
+.tbody td {
+  padding: 10px 0px;
+  text-align: center;
+  border-bottom: 1px solid #606060;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 36px;
+  animation: rotation infinite linear 2s;
+}
+.loading_container {
+  display: flex;
+  justify-content: center;
+}

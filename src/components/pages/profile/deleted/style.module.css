@@ -1,0 +1,25 @@
+.deleted {
+  display: flex;
+}
+
+.avatar {
+  position: relative;
+  width: 270px;
+  height: 270px;
+}
+
+.avatar > img {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  height: 270px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.body {
+  margin-left: 40px;
+}

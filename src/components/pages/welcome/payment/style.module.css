@@ -1,0 +1,47 @@
+.payment {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.payment > :first-child {
+  display: flex;
+}
+
+.left__col {
+  width: 700px;
+  text-align: left;
+}
+
+.left__col > * {
+  margin: 20px 0;
+}
+
+.right__col {
+  width: 600px;
+  border: 5px solid #fe8750;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.payment__block {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  overflow-wrap: anywhere;
+}
+
+.payment__block img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.payment__block h4 {
+  text-align: left;
+}
+
+@media screen and (max-width: 1400px) {
+  .payment > :first-child {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+.vpn {
+  display: flex;
+  justify-content: center;
+}
+
+.vpn > :not(:first-child) {
+  margin-left: 12px;
+}
+
+.vpn__item {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vpn__item img {
+  height: 60px;
+  width: 60px;
+}

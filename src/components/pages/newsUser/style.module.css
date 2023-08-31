@@ -1,0 +1,12 @@
+.news_user {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.news_user_paginatino {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}

@@ -1,0 +1,22 @@
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe8750;
+  color: white;
+}
+
+.code {
+  font-size: 100px;
+  margin-bottom: 40px;
+}
+
+.link {
+  text-align: center;
+}
+
+.link :nth-child(2) {
+  color: #ffdccc;
+}

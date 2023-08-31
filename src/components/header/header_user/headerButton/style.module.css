@@ -1,0 +1,14 @@
+.header__button {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 376px) {
+  .header__link img {
+    margin-right: 10px;
+  }
+}

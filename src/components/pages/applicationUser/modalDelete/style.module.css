@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  right: 1%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 150px;
+}
+.message {
+  margin: 35px 0px;
+  text-align: center;
+}
+.message p {
+  font-size: 25px;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+.action button {
+  width: 45%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.button_no {
+  border: black 1px solid;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+}

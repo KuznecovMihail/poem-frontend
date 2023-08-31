@@ -1,0 +1,26 @@
+.bgc{
+  margin-bottom: 20px;
+}
+.title {
+  margin: 25px 0px;
+}
+
+.applic__form {
+  min-height: 300px;
+  max-height: max-content;
+  min-width: 235px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.window {
+  background: url("../../../../img/spravkiimg.svg");
+  width: 450px;
+  height: 450px;
+  margin-right: 100px;
+  padding-top: 30px;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,46 @@
+.title {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.mission__logo img{
+  margin-bottom: 20px;
+  height: 489px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  position: relative;
+  z-index: -1;
+}
+.mission__logo div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 10px;
+  color: white;
+  width: 30%;
+  border-left: 5px solid rgba(255, 96, 4);
+}
+.mission__logo p {
+  color: white;
+}
+
+.mission__first__card img{
+  height: 489px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: -1;
+}
+.miss {
+  height: 40px;
+}
+
+.mission__second__card img{
+  height: 489px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: -1;
+}

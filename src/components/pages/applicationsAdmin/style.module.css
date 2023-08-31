@@ -1,0 +1,66 @@
+.applcations__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.applcations__header h1 {
+  font-size: 30px;
+}
+.applcations__header button {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 40px;
+  width: 200px;
+}
+.applcations__header a {
+  text-decoration: none;
+}
+.applcations__list {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 7px;
+}
+.applcations__list table {
+  width: 97%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+.applcations__list th {
+  width: 17%;
+  font-size: 20px;
+  position: sticky;
+  top: 11%;
+  font-weight: normal;
+  background: white;
+}
+.applcations__list td,
+th {
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+.applcations__list tr:first-child th,
+tr:not(:first-child) td {
+  border-top: none;
+}
+.applcations__list tr:last-child td {
+  border-bottom: none;
+}
+.applcations__list tr {
+  height: 60px;
+}
+.applcations__list td {
+  font-size: 17px;
+}
+.footer {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  z-index: 999;
+  margin: 10px 0px;
+}
+.get_error {
+  height: 60px;
+  font-size: 20px;
+}

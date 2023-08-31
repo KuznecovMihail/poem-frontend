@@ -1,0 +1,45 @@
+.avatar {
+  position: relative;
+  width: 270px;
+  height: 270px;
+}
+
+.avatar > img:first-child {
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  height: 270px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.avatar__icon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.avatar input {
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .avatar {
+    width: 240px;
+    height: 240px;
+  }
+
+  .avatar > img:first-child {
+    width: 240px;
+    height: 240px;
+  }
+}

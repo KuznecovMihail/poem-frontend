@@ -1,0 +1,25 @@
+.vacationsList {
+  padding: 10px;
+  height: 745px;
+  width: 550px;
+}
+
+.vacationsList__scrollable {
+  max-height: 660px;
+  overflow-y: auto;
+}
+
+.vacationsList__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-height: 810px) {
+  .vacationsList {
+    height: 680px;
+  }
+
+  .vacationsList__scrollable {
+    max-height: 595px;
+  }
+}

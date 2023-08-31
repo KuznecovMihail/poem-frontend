@@ -1,0 +1,48 @@
+.title {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.history__logo img{
+  height: 487px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: -1;
+}
+.history__logo div {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 10px;
+  color: white;
+  width: 30%;
+  border-left: 5px solid rgba(255, 96, 4);
+}
+.history__logo p {
+  color: white;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.text b {
+  color: #ff6004;
+  margin: 50px 0px;
+}
+
+.text p {
+  margin: 25px 0px;
+}
+
+.map__bank {
+  background-image: url("../../../../img/ourbankimg/histmap.jpg");
+  height: 900px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: -1;
+}

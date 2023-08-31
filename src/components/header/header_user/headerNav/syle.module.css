@@ -1,0 +1,38 @@
+.header__top {
+  padding: 5px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 220px;
+}
+
+.name {
+  transition: 0.3s;
+}
+
+.name:hover {
+  color: #ff7839;
+  transition: 0.3s;
+}
+
+.lastName {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .header__logo {
+    width: 150px;
+  }
+}

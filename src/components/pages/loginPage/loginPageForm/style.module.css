@@ -1,0 +1,93 @@
+.form__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+}
+input {
+  display: block;
+}
+
+.form__chbox {
+  display: flex;
+  margin-top: 15px;
+}
+
+.form__check {
+  width: 17px;
+  margin-right: 10px;
+}
+
+.checkbox:checked {
+  background: #fe5000;
+}
+
+.form__label {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+
+.login_img {
+  position: absolute;
+  width: 25px;
+  top: 35px;
+  left: 5px;
+}
+
+.password_img {
+  position: absolute;
+  width: 23px;
+  top: 35px;
+  left: 7px;
+}
+
+.form__input {
+  width: 200px;
+  height: 35px;
+  margin-top: 10px;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form__input:hover {
+  border: 1px solid #ff7a45;
+  transition: 0.3s;
+}
+
+.form__button {
+  width: 150px;
+  height: 45px;
+  margin-top: 35px;
+  background: rgba(254, 80, 0, 0.8);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.form__error {
+  width: 250px;
+  margin-top: 20px;
+  background: #de697e;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.error {
+  border: 1px solid #ff0000;
+  background-color: #de697e;
+}

@@ -1,0 +1,20 @@
+.cards__grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 5%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  color: black;
+}
+.cards img {
+  height: 60px;
+  fill:#000000
+}
+

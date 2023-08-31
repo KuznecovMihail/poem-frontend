@@ -1,0 +1,12 @@
+.header {
+    position: absolute;
+    right: 1%;
+  }
+  .content {
+    text-align: left;
+    padding: 10px;
+  }
+  .content p {
+    line-height: 35px;
+  }
+  

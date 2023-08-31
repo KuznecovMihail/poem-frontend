@@ -1,0 +1,117 @@
+.ndflInput form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.ndflInput form label:first-child {
+  margin-bottom: 10px;
+}
+.ndflInput form label:not(:first-child) {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.ndflInput form input {
+  background: #d9d9d9;
+  border: none;
+  padding-left: 20px;
+  border-radius: 30px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.button__applic {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.put a {
+  background: #ff7839;
+}
+.save {
+  margin-left: 30px;
+}
+
+.button {
+  border: 0;
+  background: linear-gradient(to right, #fb670b, #fa9823);
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: tranform 0.2s;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+
+.form__error {
+  color: red;
+  font-size: 10px;
+}
+.modal__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-top: 40px;
+  height: 60px;
+}
+.address input {
+  display: block;
+}
+
+.edit_date {
+  width: 64%;
+}
+.edit_form {
+  padding: 10px 0px;
+  width: 100%;
+}
+.draft {
+  border: 0;
+  background: linear-gradient(to right, #858484, #bcbbbb);
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+.draft:hover {
+  transform: scale(1.05);
+}
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.edit_button {
+  border: 0;
+  background: linear-gradient(to right, #fb670b, #fa9823);
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+.edit_button:hover {
+  transform: scale(1.05);
+}

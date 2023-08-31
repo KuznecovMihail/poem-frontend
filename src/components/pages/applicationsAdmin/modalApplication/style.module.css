@@ -1,0 +1,17 @@
+.header {
+  position: absolute;
+  right: 1%;
+}
+.content {
+  text-align: left;
+  padding: 10px;
+}
+.ant-dropdown-menu-title-content {
+  font-size: 16px;
+}
+.content p {
+  line-height: 35px;
+}
+.content button {
+  margin-top: 20px;
+}

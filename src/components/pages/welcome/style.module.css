@@ -1,0 +1,39 @@
+.welcome__header {
+  margin-bottom: 30px;
+}
+
+.welcome__footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome__header h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.welcome__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.welcome__item {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome__item img {
+  height: 60px;
+  width: 60px;
+}
+
+.welcome__body {
+  margin-top: 20px;
+}

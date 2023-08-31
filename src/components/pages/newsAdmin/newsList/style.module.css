@@ -1,0 +1,127 @@
+.news_list__list {
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.newsList__titles {
+  display: grid;
+  position: sticky;
+  background: #fff;
+  top: 104px;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  gap: 0px 40px;
+}
+
+.news_admin_filters__drop_down {
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  top: -3px;
+}
+
+.news_admin_filters__drop_down::after {
+  position: absolute;
+}
+
+.news_admin_filters__drop_down__title {
+  display: flex;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.dropdown_list {
+  position: absolute;
+  top: 25px;
+  background: #fff;
+  width: 200px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.dropdown_item {
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown_item:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.dropdown_list__disable {
+  display: none;
+}
+
+.news_admin_filters__date_input {
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  background: #d9d9d9;
+  border: none;
+  margin: 5px auto;
+}
+
+.placeholder__date {
+  font-size: 14px;
+}
+
+.news_admin_filters__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.news_admin_filters__search {
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  width: 450px;
+  background: #d9d9d9;
+  margin-right: 50px;
+  border: 1px solid #d9d9d9;
+  transition: 0.3s;
+}
+.news_admin_filters__search:hover {
+  border: 1px solid #ff7a45;
+  transition: 0.3s;
+}
+
+.news_admin_filters__button {
+  background: linear-gradient(84.89deg, #fd670b 4.81%, #fc9923 98.28%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 8px;
+  padding: 14px 65px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.news_admin_paginatino {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.target {
+  background: #d9d9d9;
+}

@@ -1,0 +1,49 @@
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal_content {
+  position: relative;
+  margin: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 700px;
+  overflow-y: auto;
+  width: 90%;
+}
+
+.modal_close_button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.switch_text {
+  padding-left: 10px;
+  font-size: small;
+  text-wrap: normal;
+}
+
+.filter_container {
+  margin-top: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}

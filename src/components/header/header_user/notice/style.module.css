@@ -1,0 +1,171 @@
+.header__notice {
+  width: 45px;
+  height: 45px;
+  max-width: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .header__notice {
+    margin-right: 15px;
+  }
+}
+
+.header__notice:hover {
+  animation: notice 0.7s;
+}
+
+@keyframes notice {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.modal {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  overflow-y: auto;
+  height: 500px;
+  padding: 0;
+}
+
+.modal_link {
+  color: black;
+  text-decoration: underline;
+}
+
+.modal_link:hover {
+  color: black;
+}
+
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.filter_button {
+  width: 33%;
+}
+
+.filter_button:hover {
+  color: black !important;
+  border-color: black !important;
+}
+
+.activeButton {
+  background-color: orange;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.arrowRight {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: transform 0.2s;
+}
+
+.arrowRight:hover {
+  transform: scale(1.5);
+}
+
+.img_container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dateText {
+  color: rgba(101, 99, 98, 0.7);
+}
+
+.notification_link {
+  color: #fd7f16;
+}
+
+.notification_link:hover {
+  color: #fd7f16;
+}
+
+.not_viewed {
+  height: 10px;
+  width: 10px;
+  background-color: #fd7f16;
+  border-radius: 50%;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.margin_bottom {
+  margin-bottom: 15px;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.one_notification_icon {
+  width: 135px;
+  height: 112px;
+}
+
+.one_notification_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.value {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+.arrow_left {
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.arrow_left:hover {
+  transform: scale(1.5);
+}
+
+.arrowRightImg {
+  height: 50px;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+}
+
+.notification_wrapper {
+  margin: 10px 0 10px 0;
+}

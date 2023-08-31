@@ -1,0 +1,33 @@
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  margin-right: 50px;
+}
+
+.name {
+  transition: 0.3s;
+}
+
+.name:hover {
+  color: #ff7839;
+  transition: 0.3s;
+}
+
+.lastName {
+  margin-left: 10px;
+}
+
+.header__link img {
+  margin-right: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 350px) {
+  .header__link img {
+    margin-right: 10px;
+  }
+}

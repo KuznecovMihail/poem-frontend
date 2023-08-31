@@ -1,0 +1,28 @@
+.welcome__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.welcome__item {
+  display: flex;
+  align-items: center;
+  width: 220px;
+}
+
+.welcome__item > img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .welcome__nav {
+    display: block;
+  }
+
+  .welcome__nav > * {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}

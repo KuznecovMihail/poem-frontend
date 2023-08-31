@@ -1,0 +1,115 @@
+.NewsAdminInput {
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.NewsAdminInput form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+}
+
+.newsAdmin__input {
+  background: #d9d9d9;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 10px 0px 20px;
+  border: 1px solid #d9d9d9;
+  transition: 0.3s;
+}
+
+.newsAdmin__input:hover {
+  border: 1px solid #ff7a45;
+  transition: 0.3s;
+}
+
+.newsAdmin__input_content {
+  max-width: 1700px;
+  min-width: 10px;
+  height: 300px;
+  resize: none;
+}
+
+.newsAdmin__input_footer {
+  display: flex;
+}
+
+.newsAdmin__input_date {
+  margin-top: 10px;
+  margin-right: 250px;
+}
+
+.newsAdmin__input_img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newsAdmin__input_button_img {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.newsAdmin__input_button_custom_img {
+  background: linear-gradient(84.89deg, #fd670b 4.81%, #fc9923 98.28%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 14px;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.newsAdmin__input_preview_title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.newsAdmin__submit {
+  background: linear-gradient(84.89deg, #fd670b 4.81%, #fc9923 98.28%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 14px;
+  color: #fff;
+  width: 40%;
+  margin-top: 40px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.form__error {
+  width: 300px;
+  margin-bottom: 10px;
+  background: #de697e;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 803px) {
+  .newsAdmin__input_preview_img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .newsAdmin__submit {
+    background: linear-gradient(84.89deg, #fd670b 4.81%, #fc9923 98.28%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 14px;
+    color: #fff;
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,62 @@
+.buttonClose {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonClose span {
+  position: absolute;
+  top: 12px;
+  height: 3px;
+  width: 100%;
+  background: #373a36;
+  border-radius: 9px;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.buttonClose:hover span:nth-child(1) {
+  animation: close1 0.7s;
+}
+
+@keyframes close1 {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+.buttonClose:hover span:nth-child(2) {
+  animation: close2 0.7s;
+}
+
+@keyframes close2 {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+.buttonClose span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.buttonClose span:nth-child(2) {
+  transform: rotate(-45deg);
+}
